@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
       image: "/images/vivo.jpeg"
     },
   ]
-  res.render('index', { title: 'Express', products });
+  res.render('index', { title: 'Express', products, admin: false});
 });
 
 module.exports = router;
