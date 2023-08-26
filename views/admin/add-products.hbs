@@ -1,0 +1,18 @@
+  <form action="/admin/add-products" method="POST" enctype="multipart/form-data">
+    <label for="name">Product Name:</label><br>
+    <input type="text" id="product-name" name="name" required><br><br>
+    
+    <label for="category">Category:</label><br>
+    <input type="text" id="product-name" name="category" required><br><br>
+    
+    <label for="description">Product Description:</label><br>
+    <textarea id="product-description" name="description" rows="4" cols="50" required></textarea><br><br>
+    
+    <label for="product-price">Product Price:</label><br>
+    <input type="number" id="product-price" name="product-price" step="0.01" required><br><br>
+
+    <label for="image">Product image:</label><br>
+    <input type="file" id="product-image" name="image" required><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
